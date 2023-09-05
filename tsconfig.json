@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "components/Button.jsx", "sections/Hero.js", "components/SearchBlog.jsx", "components/getPostMetadata.js", "app/(posts)/posts/page.jsx", "app/about/page.jsx", "app/about/page.jsx", "components/getPostMetadata.jsta.jcomponents/getPostMetadata.jsetadata.js", "components/Providers.jsx", "components/Providers.jsx", "components/DarkModeButton.jsx", "components/DarkModeButton.jsx", "app/page.jsx", "app/page.jsx", "app/layout.jsx", "app/layout.jsx", "app/head.jsx", "app/head.jsx", "app/(posts)/posts/[slug]/page.jsx", "app/(posts)/posts/[slug]/page.jsx", "lib/api.js", "app/components/Contact.jsx", "app/(posts)/layout.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
